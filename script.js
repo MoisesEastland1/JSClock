@@ -19,3 +19,7 @@ const secondHand = document.querySelector('.second-hand');
       hourHand.style.transform = `rotate(${hourDegrees}deg)`;
     }
     setInterval(setDate,1000);
+
+   //fix last seconds issuse "if statement was adviced"
+   //add digital clock 
+   //add date 
